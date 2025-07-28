@@ -5,12 +5,6 @@ local opt = vim.opt
 local opts = { noremap = true, silent = true }
 -- }}}
 
--- Default configuration {{{
-if g.rational_diagnostic_signs == nil then
-  g.rational_diagnostic_signs = true
-end
--- }}}
-
 -- General {{{
 opt.mouse = 'a'                                            -- Enable mouse support
 opt.swapfile = false                                       -- No swapfile
