@@ -10,6 +10,9 @@ opt.mouse = 'a'                                            -- Enable mouse suppo
 opt.swapfile = false                                       -- No swapfile
 opt.scrolloff = 5                                          -- Start scrolling 5 lines away from margin
 opt.sidescrolloff = 15                                     -- Start scrolling 15 lines away from side margin
+opt.splitbelow = true                                      -- Split below
+opt.splitright = true                                      -- Split on the right side
+opt.completeopt = { 'menu', 'menuone', 'noselect' }        -- Always show completion menu without selecting the first item
 --- }}}
 
 --- Whitespace {{{
